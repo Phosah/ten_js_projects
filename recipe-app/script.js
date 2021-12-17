@@ -171,7 +171,7 @@ function showMealInfo(mealData) {
     mealPopup.classList.remove('hidden');
 }
 
-popupCloseBtn.addEventListener('click', () => {
+popupCloseBtn.addEventListener('click', () => { 
     mealPopup.classList.add("hidden");
 })
 
